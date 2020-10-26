@@ -1,0 +1,120 @@
+/*     Alex Ketavongsa 
+ *     Project 2 - data.json
+ *     This JSON file contains all of the data for the midwest states.
+ *     
+ */
+
+[ 
+  {
+      "objID":          0,
+      "state":        "Illinois",
+      "capital":      "Springfield",
+      "population":   "12.74 million (2018)",
+      "nickname":      "The Praire State",
+      "fact": "The Chicago River is dyed green on Saint Patrick's Day.",
+      "pic":         "illinois"
+   },
+   {
+      "objID":          1,
+      "state":        "Indiana",
+      "capital":      "Indianapolis",
+      "population":   "6.692 million (2018)",
+      "nickname":      "The Hoosier State",
+      "fact": "Indiana's shoreline with Lake Michigan is only 40 miles long, but Indiana is still considered a Great Lakes State.",
+      "pic":         "indiana"
+   },
+   {
+      "objID":          2,
+      "state":        "Iowa",
+      "capital":      "Des Moines",
+      "population":   "3.156 million (2018)",
+      "nickname":      "The Hawkeye State",
+      "fact": "Iowa is the only state name that starts with two vowels.",
+      "pic":         "iowa"
+   },
+   {
+      "objID":          3,
+      "state":        "Kansas",
+      "capital":      "Topeka",
+      "population":   "2.912 million (2018)",
+      "nickname":      "The Sunflower State",
+      "fact": "Kansas has the largest population of wild grouse in North America. The grouse is commonly called the prairie chicken.",
+      "pic":         "kansas"
+   },
+   {
+      "objID":          4,
+      "state":        "Michigan",
+      "capital":      "Lansing",
+      "population":   "9.996 million (2018)",
+      "nickname":      "The Great Lakes State",
+      "fact": "Detroit is known as the car capital of the world.",
+      "pic":         "michigan"
+   },
+   {
+      "objID":          5,
+      "state":        "Minnesota",
+      "capital":      "Saint Paul",
+      "population":   "5.611 million (2018)",
+      "nickname":      "The Gopher State",
+      "fact": "Bloomington and Minneapolis are the two farthest north latitude cities to ever host a World Series game.",
+      "pic":         "minnesota"
+   },
+   {
+   
+      "objID":          6,
+      "state":        "Missouri",
+      "capital":      "Jefferson City",
+      "population":   "6.126 million (2018)",
+      "nickname":      "The Show Me State",
+      "fact": "Soybeans bring in the most cash for Missourians as a crop.",
+      "pic":         "missouri"
+   },
+   {
+      "objID":          7,
+      "state":        "Nebraska",
+      "capital":      "Lincoln",
+      "population":   "1.929 million (2018)",
+      "nickname":      "The Peace Garden State",
+      "fact": "The 911 system of emergency communications, now used nationwide, was developed and first used in Lincoln, Nebraska.",
+      "pic":         "nebraska"
+   },
+   {
+      "objID":          8,
+      "state":        "North Dakota",
+      "capital":      "Bismarck",
+      "population":   "760,077 (2018)",
+      "nickname":      "The Cornhusker State",
+      "fact": "North Dakota grows more sunflowers than any other state.",
+      "pic":         "northdakota"
+   },
+
+   {
+      "objID":          9,
+      "state":        "Ohio",
+      "capital":      "Columbus",
+      "population":   "11.69 million (2018)",
+      "nickname":      "The Buckeye State",
+      "fact": "Cleveland is home to the Rock and Roll Hall of Fame.",
+      "pic":         "ohio"
+   },
+   {
+      "objID":          10,
+      "state":        "South Dakota",
+      "capital":      "Columbus",
+      "population":   "882,235 (2018)",
+      "nickname":      "The Mount Rushmore State",
+      "fact": "South Dakota is the home of the Dakota, Lakota and Nakota tribes, which make up the Sioux Nation.",
+      "pic":         "southdakota"
+   },
+   {
+      "objID":          11,
+      "state":        "Wisconsin",
+      "capital":      "Madison",
+      "population":   "5.814 million (2018)",
+      "nickname":      "The Badger State",
+      "fact": "Wisconsin is the dairy capital of the United States.",
+      "pic":         "wisconsin"
+   }
+]
+
+

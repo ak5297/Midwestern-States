@@ -1,0 +1,65 @@
+<!-- Alex Ketavongsa 
+     Project 2 - details.html
+     This gets and displays all of the states and their flags from the JSON file. Once the user selects a state, they are
+     redirected to 'details'html' with information about that state.
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+  <title>Menu</title>
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+<body>
+  <nav>
+    <span><a href="index.html">Back</a></span>
+    <span style="text-align:center">Discover The States of the Midwest!</span>
+    <div class="right">
+      <span><a href="index.html">Home</a></span>
+    </div>
+  </nav>
+  <main>
+    <ul id="menu_items"></ul>
+  </main>
+  
+  <script>
+  </script>
+
+
+<script>
+  let xhr = new XMLHttpRequest(),
+      url = "data.json";
+  
+  xhr.onreadystatechange = function() {
+    if ( xhr.readyState === 4 && xhr.status === 200 ) {
+      var menuItems = JSON.parse( xhr.responseText );
+      buildMenu( menuItems );
+    }
+  };
+  xhr.open( "GET", url, true );
+  xhr.send();
+  
+  function buildMenu( items ) {
+      var output = "";
+      
+      items.forEach( function( item ) {
+          output += "<li class='item'" + "onclick=saveSelection(" + item.objID + ");> " +
+                      "<img src=assets/img/" + item.pic + ".png>" + 
+                      "<p>" + item.state + "</p>" +
+                    "</li>";
+      });
+      
+      document.getElementById( "menu_items" ).innerHTML = output;
+  }
+  
+  function saveSelection(sel){
+    localStorage.setItem( "selected", sel );
+    window.open( "details.html", "_self" );
+  }
+</script>
+
+</body>
+</html>
